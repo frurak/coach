@@ -1,0 +1,27 @@
+@import 'colors';
+@import 'basicstyles';
+@import 'buttons';
+
+@import 'maintop-basic-container';
+@import 'blog-basic-container';
+@import 'oferta-basic-container';
+@import 'partnerzy-basic-container';
+
+
+//----- Media Queries -----
+@import 'media-max-width-413'; //iPhone 5, 5S, 5C, 5SE, 6, 6S, 7, 8, X
+@import 'media-min-414-max-575';
+@import 'media-land-min-414-max-575'; //iPhone 5, 5S, 5C, 5SE LANDSCAPE
+@import 'media-min-576-max-767';
+@import 'media-land-min-576-max-767'; //iPhone 6, 6S, 7, 8 LANDSCAPE
+@import 'media-min-768-max-991'; // iPad
+@import 'media-land-min-768-max-991'; //iPhone X LANDSCAPE
+@import 'media-min-992-max-1199'; // iPad Pro
+@import 'media-land-min-992-max-1199'; //iPad LANDSCAPE
+
+@import 'keyframes';
+
+//Classes styled via JavaScript
+@import 'js-styles';
+
+

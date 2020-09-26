@@ -1,0 +1,31 @@
+
+@mixin flex($al, $ju) {
+    display: flex;
+    align-items: $al;
+    justify-content: $ju;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-weight: medium;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background: $grey2;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+    background: $grey3;
+    border-radius: 25px;
+}

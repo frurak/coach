@@ -1,0 +1,70 @@
+.nav_circle-active {
+    opacity: 1 !important;
+    transition: 0.2s ease-in-out;
+}
+.nav_circle-inactive {
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+.thumbnail-active {
+    animation: blogPostHover 0.4s ease-in-out both;
+}
+.thumbnail-inactive {
+    animation: blogPostHover2 0.4s ease-in-out both;
+}
+.cont_topbar_nav-active {
+    animation: menuMobile 0.2s ease-in-out both;
+}
+.cont_topbar_nav-inactive {
+    animation: menuMobile2 0.2s ease-in-out both;
+}
+.toggle_circle-active {
+    &::before {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+        transition: 0.4s ease-in-out;
+    }
+    &::after {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+        transition: 0.4s ease-in-out;
+    }
+}
+.toggle_circle-inactive {
+    &::before {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: -1rem;
+    }
+    &::after {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 1rem;
+    }
+}
